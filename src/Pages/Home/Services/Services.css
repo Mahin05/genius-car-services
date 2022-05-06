@@ -1,0 +1,15 @@
+.services-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.services-title{
+    text-align: center;
+    color: blue;
+}
+
+/* Make services responsive */
+@media only screen and (max-width:576px){
+    .services-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
